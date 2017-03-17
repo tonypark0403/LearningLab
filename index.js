@@ -6,7 +6,7 @@
  * of a valid Seneca College email address, `false` othewise.
  */
 exports.isValidEmail = function validate(email) {
-  if (email.includes('@myseneca.ca') || email.includes('@senecacollege.ca')) {
+  if (email.includes('@myseneca.ca')) {
     return true;
   }
 
